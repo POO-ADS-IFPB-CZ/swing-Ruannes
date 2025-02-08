@@ -21,7 +21,7 @@ public class Main {
 
     public void menu() {
         while (true) {
-            String opcao = JOptionPane.showInputDialog(null, "Escolha uma opção:\n1 - Cadastrar Produto\n2 - Listar Produtos\n3 - Editar Produto\n4 - Deletar Produto\n5 - Sair", "Menu", JOptionPane.QUESTION_MESSAGE);
+            String opcao = JOptionPane.showInputDialog(null, "=======Menu=======\n1 - Cadastrar Produto\n2 - Listar Produtos\n3 - Editar Produto\n4 - Deletar Produto\n5 - Sair", "Menu", JOptionPane.QUESTION_MESSAGE);
             if (opcao == null || opcao.equals("5")) {
                 break;
             }
